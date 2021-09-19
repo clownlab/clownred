@@ -1,9 +1,4 @@
-@keyframes pop{
-  50%  {transform: scale(1.2);}
-}
-#pop:hover{
-  animation: pop 0.3s linear 1;
-}
+
 
 /* Navigation*/
 // Collapse the navbar by adding the top-nav-collapse class
@@ -94,6 +89,13 @@ var cardSlider = new Swiper('.card-slider', {
 /* Back To Top Button */
 // Get the button
 myButton = document.getElementById("myBtn");
+
+@keyframes pop{
+  50%  {transform: scale(1.2);}
+}
+#pop:hover{
+  animation: pop 0.3s linear 1;
+}
 
 // When the user scrolls down 20px from the top of the document, show the button
 function scrollFunctionBTT() {
