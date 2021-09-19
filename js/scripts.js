@@ -1,4 +1,9 @@
-/* Description: Custom JS file */
+@keyframes pop{
+  50%  {transform: scale(1.2);}
+}
+#pop:hover{
+  animation: pop 0.3s linear 1;
+}
 
 /* Navigation*/
 // Collapse the navbar by adding the top-nav-collapse class
