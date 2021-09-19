@@ -25,6 +25,7 @@ let elements = document.querySelectorAll(".nav-link:not(.dropdown-toggle)");
 for (let i = 0; i < elements.length; i++) {
 	elements[i].addEventListener("click", () => {
 		document.querySelector(".offcanvas-collapse").classList.toggle("open");
+		    $(this).find('.dropdown-menu').first().stop(true, true).slideDown();
 	});
 }
 
